@@ -1,0 +1,71 @@
+/* Seletor universal */
+*{
+    /* Zera a margem do documento */
+    margin: 0;
+    /* Gera um espaçamento interno  */
+    padding: 0 ;
+    
+}
+
+/* Seletor de tipo, aplica o css em uma tag  */
+h5{
+    /* o tributo important prioriza o elemento em relação a outro  */
+    color:aquamarine !important;
+}
+
+/* Seletor de classe */
+.titulo{
+    background-color: rgb(241, 7, 183);
+    color:chartreuse;
+    /* Aplica margem em todas as laterais */
+    /* margin: 10px; */
+    /* margin-left: 20px; */
+    /* aplico o espaçamento no superior e inferior */
+    /* e aplico também nas laterais esquerda e direita */
+    margin: 20px 0;
+    margin: 0 10px 0 0;
+    /* Aplicando espaçamento interno */
+    /* padding: 10px; */
+    padding: 0 10px;
+}
+
+p{
+    background-color: rgb(220, 28, 134);
+}
+
+.imagem{
+    /* Aplicando tamanho em largura  */
+    width: 100px;
+    /* Aplicando tamanho em altura */
+    height: 200px;
+}
+
+.formulario{
+    background-color: rgb(242, 200, 222);
+    width: 400px;
+    margin: 0 auto ;
+
+    text-align: center;
+}
+
+    .input-nome{
+        /* Remover as bordas */
+        border: none;
+        /* Aplica curvatura no canto das bordas */
+        border-radius: 2px;
+        margin-left: 10px;
+        /* Definir opacidade no campo texto */
+        opacity:70%;
+
+    }
+
+    .botao{
+        background-color: rgb(161, 33, 112);
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
+        /* Aplicando sombra no texto posição x,y blur */
+        text-shadow: 5px 2px 5px rgba(2s12, 14, 57, 0.9);
+        }

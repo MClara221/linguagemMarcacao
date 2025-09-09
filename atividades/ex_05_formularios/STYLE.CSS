@@ -1,0 +1,29 @@
+h1{
+background-color: rgb(190, 190, 222);
+}
+
+.nome{
+background-color: rgb(140, 194, 176);
+border: 50px;
+font-size: large;
+}
+p{
+    background-color: antiquewhite;
+    font-size: medium;
+}
+
+h4{
+    border: 100px;
+}
+
+.not{
+    background-color:rgb(140, 194, 176); 
+    border: 50px;
+    font-size: large;
+}
+
+
+h3{
+    background-color: rgb(190, 190, 222);
+    margin: 20px;
+}
