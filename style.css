@@ -69,3 +69,73 @@ p{
         /* Aplicando sombra no texto posição x,y blur */
         text-shadow: 5px 2px 5px rgba(2s12, 14, 57, 0.9);
         }
+
+        .checar{
+        width: 20px;
+        height: 20px ;
+        margin-left: 5px;
+        /*Modifica o tipo do cursor */
+        cursor: pointer;
+        /*Limpar configurações aparencia*/
+        appearance: none;
+        background-color: blanchedalmond;
+        border: 2px solid #4caf50;
+        border-radius: 5px;
+    }
+    .checar:checked{
+        background-color: #4caf50;
+
+    }
+
+    .email{
+        width: 300px;
+        padding: 5px;
+        margin-left: 5px;
+        border: 2px solid white;
+
+
+    }
+
+    .Selecao{
+        appearance: none;
+        width: 300px;
+        padding: 4px;
+        font-size: 16px;
+        color: #4a3f3f; 
+        background-color: #f9f9f9;
+        border: 2px;
+        border-radius: 5px;
+        /* Sombra no input */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .radio{
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #d3421d;
+        border-radius: 50%;
+    }
+
+    /* Pseudoclasse, quando o estado do objeto mudar ele atribui outras propriedades */
+        .radio:checked{
+            background-color: #d3421d;
+            border-color: #50d31d;
+
+        
+        }
+
+        .Email{
+        font-size: large;
+        background-color: aqua;
+        text-align: start; 
+        border: 50px;
+        }
+
+        .Senha{
+            text-align: center;
+        }
+
+    
+    
